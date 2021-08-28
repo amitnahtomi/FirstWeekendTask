@@ -8,9 +8,25 @@
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
     <title>Document</title>
     <style>
+        header{
+            font-size: 50px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: blue;
+
+        }
+        p{
+            background-color: gold;
+            margin-left: 400px;
+            margin-right: 400px;
+        }
+        a:hover{
+           background-color: cyan;
+        }
         ul{
-        display: block;
-        
+            display: block;
+            list-style-type: square;
+            list-style-position: inside;
+    
         }
         main{
             text-align: center;
@@ -18,24 +34,27 @@
         }
         body{
             background-color: lightcyan;
-            background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fbakes.co.il%2Fproduct%2F%25D7%2598%25D7%25A4%25D7%2598-%25D7%25A7%25D7%2595%25D7%25A0%25D7%25A4%25D7%2598%25D7%2599%2F&psig=AOvVaw1uow2BWnTfEKBjjlN1PN3_&ust=1630173237815000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCPipp9ri0fICFQAAAAAdAAAAABAD');
+            background-image: url("https://www.seriouseats.com/thmb/3JoYWz3_PajrDhL57P9eQrpg-xE=/735x0/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__recipes__images__2015__07__20150702-sous-vide-hamburger-anova-primary-bf5eefff4505446f9cbf33f5f2d9b2e6.jpg");
         }
         @media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+              body {
+                  background-color: lightblue;
+              }
 }
         nav{
             position: fixed;
             border-radius: 100px;
-            border: magenta;
+            
         }
         .nav-link{
             
             color: deeppink;
             display: block;
             background-color: gold;
-            border-top: blue;
+            margin-top: 1.5em;
+            font-size: 0.8em;
+            text-decoration: none;
+            
         }
         .main-section{
             color: blue;
@@ -48,24 +67,24 @@
          your code here
       -->
       <nav  id="navbar">
-          <header>page navigation
-          <a class="nav-link" href="#hello_irit">hello irit</a>
-          <a class="nav-link" href="#hello_omri">hello omri</a>
-          <a class="nav-link" href="#hello_yigal">hello yigal</a>
-          <a class="nav-link" href="#hello_nitzan">hello nitzan</a>
-          <a class="nav-link" href="#hello_amit"> hello amit</a>
+          <header>car companies
+              <a class="nav-link" href="#Toyota">Toyota</a>
+              <a class="nav-link" href="#Mazda">Mazda</a>
+              <a class="nav-link" href="#Ferrari">Ferrari</a>
+              <a class="nav-link" href="#Renault">Renault</a>
+              <a class="nav-link" href="#Mini">Mini</a>
           </header>
       </nav>
       <main id="main-doc">
           
-          <section id="hello_irit" class="main-section">
-            <header>hello irit</header>
+          <section id="Toyota" class="main-section">
+            <header>Toyota</header>
             <code></code>
-            <p>p1</p>
-            <p>p2</p>
+            <p>Toyota Motor Corporation (Japanese: トヨタ自動車株式会社, Hepburn: Toyota Jidōsha kabushiki gaisha, IPA: [toꜜjota], English: /tɔɪˈoʊtə/, commonly known as simply Toyota) is a Japanese multinational automotive manufacturer headquartered in Toyota City, Aichi, Japan. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. Toyota is one of the largest automobile manufacturers in the world, producing about 10 million vehicles per year</p>
+            <p>The company was as a spinoff of Toyota Industries, a machine maker started by Sakichi Toyoda, Kiichiro's father. Both companies are now part of the Toyota Group, one of the largest conglomerates in the world. While still a department of Toyota Industries, the company developed its first product, the Type A engine in 1934 and its first passenger car in 1936, the Toyota AA.</p>
           </section>
-          <section id="hello_omri" class="main-section">
-              <header>hello omri</header>
+          <section id="Mazda" class="main-section">
+              <header>Mazda</header>
               <code></code>
               <ul>
                   <li>a</li>
@@ -74,26 +93,32 @@
                   <li>d</li>
                   <li>e</li>
               </ul>
-              <p>p3</p>
-              <p>p4</p>
+              <p>Mazda Motor Corporation (Japanese: マツダ株式会社, Hepburn: Matsuda Kabushiki-gaisha) is a Japanese multinational automaker based in Fuchū, Hiroshima, Japan.
+
+                In 2015, Mazda produced 1.5 million vehicles for global sales, the majority of which (nearly 1 million) were produced in the company's Japanese plants, with the remainder coming from a variety of other plants worldwide. In 2015, Mazda was the fifteenth largest automaker by production worldwide.</p>
+              <p>The name Mazda came into existence with the production of the company's first three-wheeled trucks. Other candidates for a model name included Sumera-Go, Tenshi-Go and more.
+
+                Officially, the company states that
+                
+                The name was also associated with Ahura Mazda (God of Light), with the hope that it would brighten the image of these compact vehicles.</p>
           </section>
-          <section id="hello_yigal" class="main-section">
-              <header>hello yigal</header>
+          <section id="Ferrari" class="main-section">
+              <header>Ferrari</header>
               <code></code>
-              <p>p5</p>
-              <p>p6</p>
+              <p>Ferrari S.p.A. (/fəˈrɑːri/; Italian: [ferˈraːri]) is an Italian luxury sports car manufacturer based in Maranello, Italy. Founded by Enzo Ferrari in 1939 out of the Alfa Romeo race division as Auto Avio Costruzioni, the company built its first car in 1940, and produced its first Ferrari-badged car in 1947.</p>
+              <p>Fiat S.p.A. acquired 50% of Ferrari in 1969 and expanded its stake to 90% in 1988. In October 2014, Fiat Chrysler Automobiles (FCA) announced its intentions to separate Ferrari S.p.A. from FCA; as of the announcement FCA owned 90% of Ferrari. The separation began in October 2015 with a restructuring that established Ferrari N.V. (a company incorporated in the Netherlands) as the new holding company of the Ferrari S.p.A. group, and the subsequent sale by FCA of 10% of the shares in an IPO and concurrent listing of common shares on the New York Stock Exchange. Through the remaining steps of the separation, FCA's interest in Ferrari's business was distributed to shareholders of FCA, with 10% continuing to be owned by Piero Ferrari. The spin-off was completed on 3 January 2016.</p>
           </section>
-          <section id="hello_nitzan" class="main-section">
-              <header>hello nitzan</header>
+          <section id="Renault" class="main-section">
+              <header>Renault</header>
               <code></code>
-              <p>p7</p>
-              <p>p8</p>
+              <p>Groupe Renault (UK: /ˈrɛnoʊ/ REN-oh, US: /rəˈnɔːlt, rəˈnoʊ/ rə-NAWLT, rə-NOH, French: [ɡʁup ʁəno], also known as the Renault Group in English; legally Renault S.A.) is a French multinational automobile manufacturer established in 1899. The company produces a range of cars and vans, and in the past has manufactured trucks, tractors, tanks, buses/coaches, aircraft and aircraft engines, and autorail vehicles.</p>
+              <p>According to the Organisation Internationale des Constructeurs d'Automobiles, in 2016 Renault was the ninth biggest automaker in the world by production volume. By 2017, the Renault–Nissan–Mitsubishi Alliance had become the world's biggest seller of light vehicles.</p>
           </section>
-          <section id="hello_amit" class="main-section">
-              <header>hello amit</header>
+          <section id="Mini" class="main-section">
+              <header>Mini</header>
               <code></code>
-              <p>p9</p>
-              <p>p10</p>
+              <p>The Mini is a two-door compact city car that was produced by the British Motor Corporation (BMC) and its successors from 1959 until 2000. The original Mini is considered an icon of 1960s British popular culture. Its space-saving transverse engine and front-wheel drive layout – allowing 80% of the area of the car's floorpan to be used for passengers and luggage – influenced a generation of car makers. In 1999, the Mini was voted the second-most influential car of the 20th century, behind the Ford Model T, and ahead of the Citroën DS and Volkswagen Beetle. The front-wheel-drive, transverse-engine layout of the Mini was copied for other "supermini" designs including the Honda N360 (1967), Nissan Cherry (1970), and Fiat 127 (1971). The layout was also adapted for larger subcompact designs.</p>
+              <p>This distinctive two-door car was designed for BMC by the Greek Sir Alec Issigonis. It was manufactured at the Longbridge plant in England located next to BMC's headquarters and at the former Morris Motors plant at Cowley near Oxford, in the Victoria Park/Zetland British Motor Corporation (Australia) factory in Sydney, Australia, and later also in Spain (Authi), Belgium, Italy (Innocenti) Chile, Malta, Portugal, South Africa, Uruguay, Venezuela, and Yugoslavia (IMV).</p>
           </section>
       </main>
 </body>
